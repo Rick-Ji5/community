@@ -1,0 +1,7 @@
+2022-07-01 16:53:10,868 INFO [main] c.n.c.LoggerTest [StartupInfoLogger.java:55] Starting LoggerTest using Java 1.8.0_333 on DESKTOP-R31TA17 with PID 21948 (started by Rick in D:\workspace\community)
+2022-07-01 16:53:10,871 INFO [main] c.n.c.LoggerTest [SpringApplication.java:645] No active profile set, falling back to 1 default profile: "default"
+2022-07-01 16:53:12,618 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:376] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$5a5a5d23] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-01 16:53:12,699 INFO [main] o.s.w.s.a.s.AnnotationActionEndpointMapping [AbstractAddressingEndpointMapping.java:239] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-07-01 16:53:14,321 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-07-01 16:53:14,948 INFO [main] c.n.c.LoggerTest [StartupInfoLogger.java:61] Started LoggerTest in 4.486 seconds (JVM running for 5.479)
+2022-07-01 16:53:15,341 INFO [main] c.n.c.LoggerTest [LoggerTest.java:24] info log
