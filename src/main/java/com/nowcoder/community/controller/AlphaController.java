@@ -37,10 +37,10 @@ public class AlphaController {
     @RequestMapping("/http")
     public void http(HttpServletRequest request, HttpServletResponse response) {
         // 获取请求数据
-        // 第一行数据
+        // 第一行数�?
         System.out.println(request.getMethod());
         System.out.println(request.getServletPath());
-        // 消息头
+        // 消息�?
         Enumeration<String> enumeration = request.getHeaderNames();
         while(enumeration.hasMoreElements()) {
             String name = enumeration.nextElement();
@@ -51,10 +51,11 @@ public class AlphaController {
 
 
         // 返回响应数据
+	 // 111
         response.setContentType("text/html;charset=utf-8");
         try {
             PrintWriter writer = response.getWriter();
-            writer.write("<h1>牛客网</h1>" );
+            writer.write("<h1>牛客�?/h1>" );
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -114,7 +115,7 @@ public class AlphaController {
     }
 
     // 响应JSON数据（异步请求）
-    // Java对象 -> jSON字符串 -> JS对象
+    // Java对象 -> jSON字符�?-> JS对象
 
     @RequestMapping(path = "/emp", method = RequestMethod.GET)
     @ResponseBody
