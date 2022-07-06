@@ -56,7 +56,7 @@ public class AlphaController {
         response.setContentType("text/html;charset=utf-8");
         try {
             PrintWriter writer = response.getWriter();
-            writer.write("<h1>牛客�?/h1>" );
+            writer.write("<h1>牛客</h1>" );
         } catch (IOException e) {
             e.printStackTrace();
         }
