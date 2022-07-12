@@ -20,17 +20,17 @@ public class AlphaService {
     private AlphaDao alphaDao;
 
     public AlphaService() {
-        System.out.println("实例化AlphaService");
+        System.out.println("实例化 AlphaService");
     }
 
     @PostConstruct
     public void init() {
-        System.out.println("初始化AlphaService");
+        System.out.println("初始化 AlphaService");
     }
 
     @PreDestroy
-    public void destory() {
-        System.out.println("销毁AlphaService");
+    public void destroy() {
+        System.out.println("销毁 AlphaService");
     }
 
 
